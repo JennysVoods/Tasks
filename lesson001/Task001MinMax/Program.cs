@@ -6,14 +6,14 @@ int min = numberA;
 if (numberA > numberB)
 {
     Console.Write("max = ");
-    Console.WriteLine(max = numberA);
+    Console.WriteLine(numberA);
     Console.Write("min = ");
-    Console.WriteLine(min = numberB);
+    Console.WriteLine(numberB);
 }
 else
 {
     Console.Write("max = ");
-    Console.WriteLine(max = numberB);
+    Console.WriteLine(numberB);
     Console.Write("min = ");
-    Console.WriteLine(min = numberA);
+    Console.WriteLine(numberA);
 }
