@@ -1,4 +1,5 @@
 ﻿int numberN = 8; //предположили что работаем с целыми числами
+
 int numberA = 1;
 
 while (numberA <= numberN)
