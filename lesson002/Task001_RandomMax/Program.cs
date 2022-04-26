@@ -2,14 +2,14 @@
 {
     int number = new Random().Next(10, 100);
 
-    int a = number / 10;
-    int b = number % 10;
+    int digitA = number / 10;
+    int digitB = number % 10;
 
-    //Console.WriteLine($"number: {number}  a: {a}  b: {b}");
+    //Console.WriteLine($"number: {number}  a: {digitA}  b: {digitB}");
 
-    int max = a;
-    if (b > max)
-        max = b;
+    int max = digitA;
+    if (digitB > max)
+        max = digitB;
     return max;
 }
 System.Console.WriteLine(GetNumber());
