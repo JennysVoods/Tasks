@@ -1,12 +1,14 @@
-﻿int NumberTwo(int number)
+﻿void NumberTwo(int ThreeDigitNumber)
 {
-    int digit = -1;
-    if (number > 99 && number < 1000)
+    int digit = 0;
+    if (ThreeDigitNumber > 99 && ThreeDigitNumber < 1000)
     {
-        digit = (number / 10) % 10;
+        digit = (ThreeDigitNumber / 10) % 10;
+        Console.WriteLine(digit);
     }
-    return digit;
+    else
+    {
+        Console.WriteLine("Number entered incorrectly");
+    }
 }
-
-int ThreeDigitNumber = 357;
-System.Console.WriteLine(NumberTwo(ThreeDigitNumber));
+NumberTwo(4156);
