@@ -11,4 +11,4 @@
         Console.WriteLine("Number entered incorrectly");
     }
 }
-NumberTwo(4156);
+NumberTwo(456);
