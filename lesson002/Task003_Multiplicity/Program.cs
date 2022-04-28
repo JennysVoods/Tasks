@@ -1,4 +1,4 @@
-﻿int Multiplicity(int numberA, int numberB)
+﻿void Multiplicity(int numberA, int numberB)
 {
     int number = 0;
 
@@ -11,8 +11,5 @@
         number = numberA % numberB;
         Console.WriteLine($"Не кратно, остаток {number}");
     }
-    return;
 }
-
-int digitA = 16;
-int digitB = 4;
+Multiplicity(34, 5);
