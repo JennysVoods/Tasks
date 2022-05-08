@@ -4,7 +4,7 @@
     if(number > -10000 && number < -999)
     {
         digit = -number;
-        digit = (digit / 10) % 10;
+        digit = (digit / 100) % 10;
         Console.WriteLine(digit);
     }
     else
@@ -12,4 +12,4 @@
         Console.WriteLine("Number entered incorrectly");
     }
 }
-NegativeFourDigit(-9118);
+NegativeFourDigit(-9238);
