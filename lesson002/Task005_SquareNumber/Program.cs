@@ -1,27 +1,13 @@
 ﻿void SquareNumber(int numberA, int numberB)
 {
-    if(numberA > numberB)
+    if (numberB * numberB == numberA || numberA * numberA == numberB)
     {
-        if (numberB * numberB == numberA)
-        {
-            Console.WriteLine("Да");
-        }
-        else
-        {
-            Console.WriteLine("Нет");
-        }
+        Console.WriteLine("Да");
     }
     else
     {
-        if (numberA * numberA == numberB)
-        {
-            Console.WriteLine("Да");
-        }
-        else
-        {
-            Console.WriteLine("Нет");
-        }
+        Console.WriteLine("Нет");
     }
 }
 
-SquareNumber(8,9);
+SquareNumber(5, 25);
